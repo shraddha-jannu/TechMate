@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card
+{
+    background: #2c2b30;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px #2c2b30;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+}
+
+.card-image
+{
+    height: 200px;
+    margin-bottom: 15px;
+    align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.car-1{
+    background-image: url("TCS-card.jpeg");
+    background-size: contain;
+    
+}
+
+.car-2{
+    background-image: url("Persistent_card.jpg");
+    background-size: contain;
+}
+
+.car-3{
+    background-image: url("wipro_card\ \(3\).jpeg");
+    background-size: contain;
+}
+
+.car-4{
+    background-image: url("Infosys_card.jpeg");
+    background-size: contain;
+
+}
+
+.car-5{
+    background-image: url("cognizant_card.jpeg");
+    background-size: contain;
+}
+
+.car-6{
+    background-image: url("ByJus_card.jpeg");
+    background-size: contain;
+}
+
+img{
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.navbar
+{
+    background: #2c2b30;
+}
+.container-fluid a{
+    font-size: 18px;
+    color: #f58f76;
+}
+.container-fluid a:hover{
+    color: aliceblue;
+}
+#navbarSupportedContent
+{
+    margin-left:15%;
+}
+
+#navbarSupportedContent a
+{
+    margin-left: 20px;
+}

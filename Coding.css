@@ -1,0 +1,48 @@
+.header
+{
+    width: 100%;
+    min-height: auto;
+    background-color: #f58f76;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #2c2b30;
+}
+
+.header h1{
+    color: #2c2b30;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+.categoryBox
+{
+    background-color: #2c2b30;
+    border: 2px solid rgb(7, 7, 7);
+    margin: 30px auto;
+    padding: 35px 35px;
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+.categoryBox a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.categoryBox a:hover{
+    text-decoration: none;
+    color: #f58f76;
+    font-size: 28px;
+}
+.categoryBox hr{
+    height: 3px;
+    border: none;
+    background-color: #f58f76;
+
+}
+
+
+

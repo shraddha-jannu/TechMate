@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card
+{
+    background: #2c2b30;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px #2c2b30;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+}
+
+.card-image
+{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.car-1{
+    background-image: url("DSA-1_card.jpeg");
+    background-size: contain;
+    
+}
+
+.car-2{
+    background-image: url("DB_card.jpeg");
+    background-size: contain;
+}
+
+.car-3{
+    background-image: url("oop_card.jpeg");
+    background-size: contain;
+}
+
+.car-4{
+    background-image: url("OS-1_card.jpeg");
+    background-size: contain;
+
+}
+
+.car-5{
+    background-image: url("CN-1_card.jpeg");
+    background-size: contain;
+}
+
+.car-6{
+    background-image: url("OS-2_card.jpeg");
+    background-size: contain;
+}
+
+img{
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.navbar
+{
+    background: #2c2b30;
+}
+.container-fluid a{
+    font-size: 18px;
+    color: #f58f76;
+}
+.container-fluid a:hover{
+    color: aliceblue;
+}
+#navbarSupportedContent
+{
+    margin-left:15%;
+}
+
+#navbarSupportedContent a
+{
+    margin-left: 20px;
+}
+
+body{
+    /* display: flex; */
+    justify-content: center;
+    /* height: 100vh; */
+    /* align-items: center; */
+}
